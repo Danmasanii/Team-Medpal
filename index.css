@@ -1,0 +1,107 @@
+
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+img{
+    border-radius: 100%;
+}
+
+main{
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 90px 400px;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+form{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+form > h2 {
+    text-align: left;
+    margin-left: 137px;
+}
+span{
+    margin: 10px;
+    padding: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#link,#login-link{
+    color: black;
+}
+#email > input,
+#password > input,
+#fullname > input,
+textarea,#Name,
+#product-link,#product-image{ 
+    width: 190px;
+    height: 30px;
+    padding: 15px;
+    margin: 10px;
+    cursor: pointer;
+    outline: none;
+}
+section:focus{
+    background: #fff;
+    outline: none;
+}
+#container{
+    padding: 5px;
+}
+.login{
+    color: white;
+    width: 120px;
+    height: 30px;
+    margin: 2px;
+    padding: 0 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #0ce;
+}
+.signup, #btn{
+    color: white;
+    width: 120px;
+    height: 30px;
+    margin: 2px;
+    padding: 0 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #f76;
+}
+#btn{
+    width: 190px;
+}
+hr{
+    margin: 0;
+    padding: 0;
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+footer > span{
+    padding: 5px;
+    margin-top: 7px;
+}

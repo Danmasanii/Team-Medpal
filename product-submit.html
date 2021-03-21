@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Product</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+        main>span {
+            text-align: left;
+        }
+    </style>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="container">
+           
+            <form id="form" action="">
+                <h2>Submit a product</h2>
+                <section id="Name">
+                    <input type="text" placeholder="Name" width="180px" height="30px">
+                </section>
+                <section id="product-link">
+                    <input type="link" name="link"  placeholder="Link" width="180px" height="30px">
+                </section>
+                <section id="textarea">
+                    <textarea type="textarea" name="textarea"  placeholder="Product Descrption"></textarea>
+                </section>
+                <section id="product-image" width="180px" height="30px">
+                    <input type="file" name="filename">
+                </section>
+                <section>
+                    <input id="btn" type="submit">
+                </section>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

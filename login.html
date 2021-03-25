@@ -6,31 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scout Me</title>
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
-        main>span {
-            text-align: left;
-        }
     </style>
-    <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
     <main>
+
         <div class="container">
             <form action="">
                 <h2 class="main-span">Login</h2>
                 <section id="email">
-                    <input type="email" placeholder="Email" width="180px" height="30px" required/>
+                    <input type="email" placeholder="Email" width="200px" height="30px" />
                 </section>
 
                 <section id="password">
-                    <input type="password" placeholder="Password" required/>
+                    <input type="password" placeholder="Password" />
                 </section>
                 <section>
-                    <input id="btn" type="submit" />
+                    <a href="profile.html">
+                        <button id="btn" type="button" placeholder="">LOG IN</button>
+                    </a>
                 </section>
                 <section id="signup">
                     <span>

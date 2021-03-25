@@ -34,6 +34,13 @@ form > h2 {
     text-align: left;
     margin-left: 137px;
 }
+input{
+    outline: none;
+}
+.material-icons{
+    font-size: small;
+    color: #f76;
+}
 span{
     margin: 10px;
     padding: 10px;
@@ -45,17 +52,23 @@ a{
 #link,#login-link{
     color: black;
 }
+textarea,
 #email > input,
 #password > input,
 #fullname > input,
-textarea,#Name,
-#product-link,#product-image{ 
-    width: 190px;
+#tagline > input,
+#name > input,
+#product-link > input{ 
+    width: 200px;
     height: 30px;
     padding: 15px;
     margin: 10px;
     cursor: pointer;
     outline: none;
+}
+#product-image > input{
+    padding: 10px 0;
+    margin-left: 50px;
 }
 section:focus{
     background: #fff;
@@ -66,7 +79,7 @@ section:focus{
 }
 .login{
     color: white;
-    width: 120px;
+    width: 140px;
     height: 30px;
     margin: 2px;
     padding: 0 15px;
@@ -75,9 +88,9 @@ section:focus{
     cursor: pointer;
     background-color: #0ce;
 }
-.signup, #btn{
+.signup{
     color: white;
-    width: 120px;
+    width: 140px;
     height: 30px;
     margin: 2px;
     padding: 0 15px;
@@ -87,7 +100,15 @@ section:focus{
     background-color: #f76;
 }
 #btn{
-    width: 190px;
+    color: white;
+    width: 200px;
+    height: 30px;
+    margin: 2px;
+    padding: 0 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #f76;
 }
 hr{
     margin: 0;
